@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/wreiner/automx-debian.git
 Package: automx
 Architecture: all
 Depends: libapache2-mod-wsgi | httpd-wsgi,
-	 python (>= 2.Y),
+	 python (>= 2.7),
          python-dateutil,
          python-ipaddr,
          python-lxml,
