@@ -2,8 +2,8 @@ Source: automx
 Maintainer: Walter Reiner <walter.reiner@wreiner.at>
 Section: mail
 Priority: optional
-Build-Depends: debhelper (>= 9), python-all
-Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9), dh-python, python-all
+Standards-Version: 3.9.8
 Homepage: http://automx.org
 Vcs-Git: https://github.com/wreiner/automx-debian.git
 Vcs-Browser: https://github.com/wreiner/automx-debian.git
@@ -11,6 +11,7 @@ Vcs-Browser: https://github.com/wreiner/automx-debian.git
 Package: automx
 Architecture: all
 Depends: libapache2-mod-wsgi | httpd-wsgi,
+	 python (>= 2.Y),
          python-dateutil,
          python-ipaddr,
          python-lxml,
