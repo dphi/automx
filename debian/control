@@ -1,0 +1,27 @@
+Source: automx
+Maintainer: Walter Reiner <walter.reiner@wreiner.at>
+Section: mail
+Priority: optional
+Build-Depends: debhelper (>= 9), python-all
+Standards-Version: 3.9.5
+Homepage: http://automx.org
+Vcs-Git: https://github.com/wreiner/automx-debian.git
+Vcs-Browser: https://github.com/wreiner/automx-debian.git
+
+Package: automx
+Architecture: all
+Depends: libapache2-mod-wsgi | httpd-wsgi,
+         python-dateutil,
+         python-ipaddr,
+         python-lxml,
+         python-m2crypto,
+         python-memcache,
+         ${misc:Depends},
+         ${python:Depends}
+Recommends: python-ldap | python-sqlalchemy
+Suggests: python-ldap, python-mysqldb, python-sqlalchemy
+Description: Provides account configuration data to mailclients
+ automx runs as a WSGI webservice and generates XML output which is used by the
+ users mail client to determine the configuration values needed to use the mail
+ service, like address of IMAP or SMTP service, the username syntax to login
+ and so on.

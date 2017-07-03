@@ -1,0 +1,13 @@
+automx (0.10.0-2) unstable; urgency=low
+
+  * Fixed control fields, added Vcs field
+  * Fixed dependencies
+  * Fixed shipping automx-test (Closes: #731233)
+
+ -- Walter Reiner <walter.reiner@wreiner.at>  Fri, 22 Nov 2013 18:42:02 +0100
+
+automx (0.10.0-1) unstable; urgency=low
+
+  * Initial Release (Closes: #662168)
+
+ -- Walter Reiner <walter.reiner@wreiner.at>  Tue, 29 Oct 2013 13:22:39 +0100
