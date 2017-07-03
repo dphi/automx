@@ -1,3 +1,9 @@
+automx (1.1.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release (Closes: #816296)
+
+ -- Philipp Dreimann <philipp@dreimann.net>  Mon, 03 Jul 2017 21:08:46 +0200
+
 automx (0.10.0-2) unstable; urgency=low
 
   * Fixed control fields, added Vcs field
